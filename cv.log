@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.8.16)  16 AUG 2019 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.8.16)  4 OCT 2019 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/media/andrepbento/0BF361A44BB1F4A3/Git_Projects/CurriculumVitae/cv.tex
-(/media/andrepbento/0BF361A44BB1F4A3/Git_Projects/CurriculumVitae/cv.tex
+**/home/andrepbento/Projects/CurriculumVitae/cv.tex
+(/home/andrepbento/Projects/CurriculumVitae/cv.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2018/12/12 v3.7h configurable book, report, article document class
@@ -332,7 +332,7 @@ Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-) (/media/andrepbento/0BF361A44BB1F4A3/Git_Projects/CurriculumVitae/structure.tex (/usr/share/texlive/texmf-dist/tex/latex/xcharter/XCharter.sty
+) (/home/andrepbento/Projects/CurriculumVitae/structure.tex (/usr/share/texlive/texmf-dist/tex/latex/xcharter/XCharter.sty
 Package: XCharter 2017/12/19 v1.112
  `XCharter' v1.112, 2017/12/19 Text macros for XCharter, an extension of Charter (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
@@ -1184,47 +1184,47 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \col@ii@evenx=\skip292
 \col@ii@eveny=\skip293
 )
-LaTeX Font Info:    Try loading font information for T1+XCharter-TLF on input line 51.
+LaTeX Font Info:    Try loading font information for T1+XCharter-TLF on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
 File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 51.
- (/media/andrepbento/0BF361A44BB1F4A3/Git_Projects/CurriculumVitae/cv.aux)
+(Font)              scaled to size 10.0pt on input line 34.
+ (/home/andrepbento/Projects/CurriculumVitae/cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 51.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 34.
 \c@mv@tabular=\count186
 \c@mv@boldtabular=\count187
 
@@ -1308,63 +1308,70 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <photo.jpg, id=4, 192.72pt x 192.72pt>
 File: photo.jpg Graphic file (type jpg)
 <use photo.jpg>
-Package pdftex.def Info: photo.jpg  used on input line 53.
+Package pdftex.def Info: photo.jpg  used on input line 36.
 (pdftex.def)             Requested size: 64.87195pt x 64.8711pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 53.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 53.
+(Font)              scaled to size 10.95pt on input line 36.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 53.
+(Font)              <10.95> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 53.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 53.
+(Font)              <6> on input line 36.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 53.
+(Font)              scaled to size 10.95pt on input line 36.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 61.
+(Font)              scaled to size 24.88pt on input line 44.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 61.
+(Font)              scaled to size 24.88pt on input line 44.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 63.
+(Font)              scaled to size 17.28pt on input line 46.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 63.
+(Font)              scaled to size 17.28pt on input line 46.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 69.
+(Font)              scaled to size 12.0pt on input line 52.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/it' will be
-(Font)              scaled to size 12.0pt on input line 119.
-LaTeX Font Info:    Try loading font information for TS1+XCharter-TLF on input line 119.
+(Font)              scaled to size 12.0pt on input line 96.
+LaTeX Font Info:    Try loading font information for TS1+XCharter-TLF on input line 96.
  (/usr/share/texlive/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
 File: TS1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for TS1/XCharter-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 119.
+(Font)              scaled to size 12.0pt on input line 96.
 
-Overfull \hbox (7.31198pt too wide) in paragraph at lines 119--119
+Overfull \hbox (7.31198pt too wide) in paragraph at lines 118--118
 []\T1/XCharter-TLF/m/n/12 Participated in An-droid, iOS, Git, Pro-gram-ming lan-guages and Project
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 176.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </media/andrepbento/0BF361A44BB1F4A3/Git_Projects/CurriculumVitae/photo.jpg>] (/media/andrepbento/0BF361A44BB1F4A3/Git_Projects/CurriculumVitae/cv.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/andrepbento/Projects/CurriculumVitae/photo.jpg>]
+File: photo.jpg Graphic file (type jpg)
+<use photo.jpg>
+Package pdftex.def Info: photo.jpg  used on input line 177.
+(pdftex.def)             Requested size: 64.87195pt x 64.8711pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 189.
+ [2
+
+] (/home/andrepbento/Projects/CurriculumVitae/cv.aux) ) 
 Here is how much of TeX's memory you used:
  19294 strings out of 492615
- 347644 string characters out of 6131390
- 452693 words of memory out of 5000000
+ 347402 string characters out of 6131390
+ 452685 words of memory out of 5000000
  22842 multiletter control sequences out of 15000+600000
  70342 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,16n,48p,1019b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,48p,997b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_q7u3cc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_a3psji.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on /media/andrepbento/0BF361A44BB1F4A3/Git_Projects/CurriculumVitae/cv.pdf (1 page, 129159 bytes).
+Output written on /home/andrepbento/Projects/CurriculumVitae/cv.pdf (2 pages, 130839 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
