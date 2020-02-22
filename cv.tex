@@ -4,6 +4,17 @@
 
 \documentclass[a4paper,12pt]{memoir} % Font and paper size
 
+\usepackage{hyperref}
+\usepackage{marvosym}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+}
+
+
 \input{structure.tex} % Include the file specifying document layout and packages
 
 %----------------------------------------------------------------------------------------
@@ -16,13 +27,13 @@
 \includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
 \small % Smaller font size
 André Pascoal Bento \\ % Your name
-\url{apbento@dei.uc.pt} \\ % Your email address
+\Letter~\href{mailto:apbento@dei.uc.pt}{apbento@dei.uc.pt} \\ % Your email address
 %\url{abento.site} \\ % Your URL
-(+351)~910~349~466 \\ % Your phone number
-(+351)~231~488~174 \\ % My fixed number 
+\Mobilefone(+351)~910~349~466 \\ % Your phone number
+\Telefon~(+351)~231~488~174 \\ % My fixed number 
 \Sep % Some whitespace
 \textbf{Address} \\
-R. Dr. António \\ José de Almeida, n.98 \\ % Address 1
+R. Dr. António José \\ de Almeida, n.98 \\ % Address 1
 Mira, 3070-399 \\ % Address 2
 Coimbra, Portugal \\ % Address 3
 \vfill % Whitespace under this block to push it up under the photo
