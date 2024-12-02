@@ -2,13 +2,20 @@
 
 % Personal Info
 
+\usepackage{tikz}
+
 \userinformation{
 	\begin{flushright}
-		\includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip]
+		\begin{tikzpicture}
+			\clip (0,0)  circle (2cm) ;
+			\node {\includegraphics[width=4cm]{photo3.jpeg}}; 
+		\end{tikzpicture}
+		%\includegraphics[width=0.8\columnwidth]{photo2.jpeg}\\[\baselineskip]
 
 		\small
 
 		André Pascoal Bento \\
+		%\Letter~\href{mailto:andre.pascoal.bento@gmail.com}{andre.pascoal.bento@gmail.com} \\
 		\Letter~\href{mailto:apbento@dei.uc.pt}{apbento@dei.uc.pt} \\
 		\Mobilefone~(+351)~910~349~466 \\
 		%\Telefon~(+351)~231~455~067 \\ 
