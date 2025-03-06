@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{memoir}
+\documentclass[a4paper,9pt]{memoir}
 
 \usepackage{hyperref}
 \usepackage{marvosym}
@@ -12,37 +12,76 @@
     urlcolor=black,
 }
 
-\input{structure}
+\usepackage{XCharter} % Use the Bitstream Charter font
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
 
-\input{personal-info}
+\usepackage[top=1cm,left=1cm,right=1cm,bottom=1cm]{geometry} % Modify margins
+
+\usepackage{graphicx} % Required for figures
+
+\usepackage{url} % URLs
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for custom colours
+
+\usepackage{enumitem} % Required for modifying lists
+\setlist{noitemsep,nolistsep} % Remove spacing within and around lists
+
+\pagestyle{empty} % Disable all page numbering
+
+\setlength{\parindent}{0pt} % Stop paragraph indentation
+
+\newcommand{\userinformation}[1]{\renewcommand{\userinformation}{#1}} % Define a new command for the CV user's information that goes into the left column
+\newcommand{\cvheading}[1]{{\large\bfseries\color{RoyalBlue} #1}} % New command for the CV heading
+\newcommand{\cvsubheading}[1]{{\Large\bfseries #1} \bigbreak} % New command for the CV subheading
+\newcommand{\Sep}{\vspace{1em}} % New command for the spacing between headings
+\newcommand{\SmallSep}{\vspace{0.5em}} % New command for the spacing within headings
+\newcommand{\aboutme}[2]{ % New command for the about me section
+    \textbf{\color{RoyalBlue} #1}~~#2\par\Sep
+}
+\newcommand{\CVSection}[1]{ % New command for the headings within sections
+    {\Large\textbf{#1}}\par
+    \SmallSep % Used for spacing
+}
+\newcommand{\CVItem}[2]{ % New command for the item descriptions
+    \textbf{\color{RoyalBlue} #1}\par
+    #2
+    \SmallSep % Used for spacing
+}
+\newcommand{\bluebullet}{\textcolor{RoyalBlue}{$\circ$}~~} % New command for the blue bullets
 
 \begin{document}
 
-\userinformation
+\begin{center}
+    \cvheading{\textbf{André Pascoal Bento}}
 
-\framebreak
+    \cvsubheading{\Large PhD Student @ CISUC | Assistant Professor @ University of Coimbra}
+    %\noindent\rule{\linewidth}{0.4pt}
+    
+    \faEnvelope~\href{mailto:apbento@dei.uc.pt}{apbento@dei.uc.pt}\
+    \faPhone~(+351)~910~349~466\ 
+    \textbf{Address:} Coimbra, Portugal.
 
-\cvheading{\textbf{André Pascoal Bento}}
-\cvsubheading{\Large PhD Student @ CISUC | Assistant Professor @ University of Coimbra}
+    \faLinkedin~\href{https://www.linkedin.com/in/andre-bento/?locale=en_US}{andre-bento}\
+    \faGlobe~\href{https://www.cisuc.uc.pt/en/people/apbento}{CISUC Profile}\
+    \faGoogle~\href{https://scholar.google.com/citations?user=9Yl9gBwAAAAJ&hl=en}{Scholar}\
+    \faGithub~\href{https://github.com/andrepbento}{andrepbento}
+
+    \textbf{Communication skills:}
+    Portuguese (native),
+    English (advanced),
+    French (intermediate),
+    Spanish (intermediate).
+    
+    \noindent\rule{\linewidth}{0.4pt}
+\end{center}
+
 
 \aboutme{About}{
 André Bento is a researcher at the Centre for Informatics and Systems at the University of Coimbra, where he is also pursuing a Ph.D. in Informatics Engineering and teaching as an invited professor. His research focuses on optimizing cloud service availability and resource utilization.
 %
 He holds a B.Sc. from the Coimbra Institute of Engineering and a M.Sc. from the University of Coimbra. Beyond work, he enjoys swimming, cycling, exploring nature and playing the guitar. Passionate about distributed systems, he constantly seeks new learning opportunities.
 }
-
-\CVSection{Education}
-
-\CVItem{2019 - Present, University of Coimbra}{Ph.D. in Informatics Engineering
-\\\emph{Thesis: Optimizing Availability and Resource Utilization of Cloud Services}
-}
-
-\CVItem{2017 - 2019, University of Coimbra}{M.Sc. in Informatics Engineering
-\\\emph{Thesis: Observing and Controlling Performance in Microservices}}
-
-\CVItem{2014 - 2017, Coimbra Institute of Engineering (ISEC)}{B.Sc. in Informatics Engineering}
-
-\Sep
 
 \CVSection{Experience}
 
@@ -72,14 +111,6 @@ He holds a B.Sc. from the Coimbra Institute of Engineering and a M.Sc. from the 
     Taught mathematics to pre-degree and engineering students.
 }
 
-\Sep
-
-\clearpage
-
-\userinformation
-
-\framebreak
-
 \CVItem{May 2014 - Jul 2014, \textit{Accountant Technician Intern}, Caixa de Crédito Agrícola Mútuo de Mira - C.R.L.}{
     Assisted with bank accounting, organization, and daily operations.
 }
@@ -87,6 +118,28 @@ He holds a B.Sc. from the Coimbra Institute of Engineering and a M.Sc. from the 
 \CVItem{May 2013 - Jun 2013, \textit{Accountant Technician Intern}, Caixa de Crédito Agrícola Mútuo de Cantanhede - C.R.L.}{
     Supported bank accounting and daily operational tasks.
 }
+
+\Sep
+
+\CVSection{Education}
+
+\CVItem{2019 - 2025 (Expected), Ph.D. in Informatics Engineering, University of Coimbra}{
+\emph{Thesis: Optimizing Availability and Resource Utilization of Cloud Services}
+}
+
+\CVItem{2017 - 2019, M.Sc. in Informatics Engineering, University of Coimbra}{\emph{Thesis: Observing and Controlling Performance in Microservices}}
+
+\CVItem{2014 - 2017, B.Sc. in Informatics Engineering, Coimbra Institute of Engineering (ISEC)}
+
+\Sep
+
+\CVSection{Grants and Projects}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Dec 2021 - Jul 2025, Ph.D. grant} - Foundation for Science and Technology (FCT) Grant number BD.06012.2021.
+    \item \textbf{2023 - 2025, ROAR-NET} - Randomised Optimisation Algorithms Research Network (CA22137). Funded by COST.
+    \item \textbf{2019 - 2022, AESOP} - Autonomic Service Operation. Funded by P2020-31/SI/2017, No. 040004.
+\end{itemize}
 
 \Sep
 
@@ -108,15 +161,5 @@ He holds a B.Sc. from the Coimbra Institute of Engineering and a M.Sc. from the 
 	IEEE, 2021.% [Rank B by ERA].
 	\item \textbf{Andre Bento}, Jaime Correia, Ricardo Filipe, Filipe Araujo, and Jorge Cardoso. \emph{Automated analysis of distributed tracing: Challenges and research directions}. Journal of Grid Computing, 19:1-15, 2021.% [Rank Q1 by Scimago Journal \& Country Rank].
 \end{enumerate}
-
-\Sep
-
-\CVSection{Grants and Projects}
-
-\begin{itemize}[leftmargin=*]
-    \item \textbf{Dec 2021 - Jul 2025, Ph.D. grant} - Foundation for Science and Technology (FCT) Grant number BD.06012.2021.
-    \item \textbf{2023 - 2025, ROAR-NET} - Randomised Optimisation Algorithms Research Network (CA22137). Funded by COST.
-    \item \textbf{2019 - 2022, AESOP} - Autonomic Service Operation. Funded by P2020-31/SI/2017, No. 040004.
-\end{itemize}
 
 \end{document}
